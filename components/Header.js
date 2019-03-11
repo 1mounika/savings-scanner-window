@@ -12,4 +12,16 @@ const Header= (props) => {
     );
 
 };
+const Footer= (props) => {
+    return(
+        <View>
+        
+        {props.children}
+        
+
+        </View>
+    );
+
+};
 export default Header;
+export default Footer;
